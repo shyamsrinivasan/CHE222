@@ -1,4 +1,4 @@
 function fxy = EulerTutorial9(x)
-k1 = 0.1;
-k2 = 100;
+k1 = 0.001;
+k2 = 1000;
 fxy = [-k1*x(1);k1*x(1)-k2*x(2)]; 

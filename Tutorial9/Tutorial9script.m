@@ -1,7 +1,7 @@
 % Euler Tutorial 9 script
 t0 = 0;
-tmax = 0.04;
-h = 0.01;
+tmax = 0.5;
+h = 0.001;
 iter  = 1;
 itermax = 100;
 xiter = zeros(2,itermax);
