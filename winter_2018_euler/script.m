@@ -27,3 +27,12 @@ subplot(211);
 plot(texact, yexact(:, 1), '-b');
 subplot(212);
 plot(texact, yexact(:, 2), '-b');
+
+%% unstable example 
+time = [0, 2];
+y0 = 1;
+h = 0.03;
+[tout, yout] = euler_explicit(time, y0, h, @unstable_example);
+
+figure
+plot(tout, yout, '-r');
